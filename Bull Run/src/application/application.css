@@ -1,0 +1,19 @@
+*{
+	-fx-font-size: 300.0%;
+	-fx-alignment: center;
+}
+
+.leftAndBottomBorder{
+	-fx-border-width:0.0 0.0 2.0 2.0;
+	-fx-border-style: solid;
+}
+.bottomBorder{
+	-fx-border-width:0.0 0.0 2.0 0.0;	
+	-fx-border-style: solid;
+}
+
+.leftBorder{
+	-fx-border-width:0.0 0.0 0.0 2.0;
+	-fx-border-style: solid;
+}
+

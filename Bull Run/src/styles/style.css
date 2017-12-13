@@ -1,0 +1,59 @@
+.default-box {
+    -fx-background-color: lightsteelblue ;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+
+.wall {
+    -fx-background-color: black;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+}
+
+.start-end {
+    -fx-background-color: red;
+    -fx-font-size: 75%;
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-text-fill: #CCCCCC;
+}
+
+.title {
+    -fx-alignment: baseline-center;
+    -fx-font-size: 250%;
+    -fx-background-color: #333333;
+    -fx-font-style: oblique;
+    -fx-alternative-column-fill-visible: true;
+    -fx-alternative-row-fill-visible: true;
+}
+
+.border-style {
+    -fx-alignment: center;
+    -fx-background-color: #333333;
+}
+
+.grid-style {
+    -fx-alignment: top-center;
+    -fx-min-height: 600px;
+    -fx-min-width: 600px;
+    -fx-background-color: #333333;
+}
+
+.white-text {
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-style{
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-background-color: #333333;
+    -fx-alignment: top-center;
+    -fx-alternative-row-fill-visible: true;
+    -fx-alternative-column-fill-visible: true;
+}
